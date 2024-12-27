@@ -1,0 +1,122 @@
+name: test6
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  permission_handler: ^11.3.1
+  animated_icon: ^0.0.9
+  flutter_secure_storage: ^5.0.2
+  http: ^1.2.1
+  flutter_animate: ^4.5.0
+  path_provider: ^2.1.4
+  just_audio: ^0.9.18
+  video_player: ^2.9.2
+  animated_text_kit: ^4.2.1
+  cached_network_image: ^3.2.0
+  audio_session: ^0.1.21
+  shared_preferences: ^2.0.0
+  loading_animation_widget: ^1.2.1
+  painter: ^2.0.0
+  flutter_colorpicker: ^1.1.0
+  flutter_painter_v2: ^2.0.1
+  image_picker: ^1.1.2
+  http_parser: ^4.0.2
+  speech_to_text: ^7.0.0
+  rive: ^0.13.20
+  audioplayers: ^6.1.0
+  font_awesome_flutter: ^10.8.0
+  flutter_screenutil: ^5.9.3
+  table_calendar: ^3.1.3
+  flutter_toggle_tab: ^1.4.1
+  flip_card: ^0.7.0
+  dotted_border: ^2.0.0
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/loading.mp4
+    - assets/Dreamidle.mp4
+    - assets/Dreamtarod.mp4
+    - assets/Dreamcard.mp4
+    - assets/chatscreen.mp4
+    - assets/chatscreen_2.mp4
+    - assets/mainbackground.mp4
+    - assets/cloud.mp4
+    - assets/sea.mp4
+    - assets/card.mp4
+    - assets/chat.mp4
+    - assets/cloud_reverse.mp4
+    - assets/sea_reverse.mp4
+    - assets/card_reverse.mp4
+    - assets/chat_reverse.mp4
+    - assets/cloudscreen.mp4
+    - assets/seascreen.mp4
+    - assets/face.riv
+    - assets/font.ttf
+    - assets/blue.png
+    - assets/orange.png
+    - assets/purple.png
+    - assets/white.png
+    - assets/frist.png
+    - assets/login.png
+    - assets/loginscreen.png
+    - assets/music.mp3
+    - assets/loading.riv
+    - assets/jellyfish_icon.png
+    - assets/jellyfish.png
+    - assets/jellyfish.riv
+    - assets/images/bgm.png
+    - assets/images/morning_way.png
+    - assets/images/sea_morning.png
+    - assets/images/sea_way.png
+    - assets/images/universe.png
+    - assets/images/war_song.png
+    - assets/bgm/morning_way.MP3
+    - assets/bgm/sea_morning.MP3
+    - assets/bgm/sea_way.MP3
+    - assets/bgm/universe.MP3
+    - assets/bgm/war_song.MP3
+    - assets/sleep/sleep5.mp3
+    - assets/sleep/sleep10.mp3
+    - assets/sleep/sleep15.mp3
+    - assets/vision/vision5.mp3
+    - assets/vision/vision10.mp3
+    - assets/vision/vision15.mp3
+    - assets/emotion/emotion5.mp3
+    - assets/emotion/emotion10.mp3
+    - assets/emotion/emotion15.mp3
+    - assets/myself/myself5.mp3
+    - assets/myself/myself10.mp3
+    - assets/myself/myself15.mp3
+    - assets/card_cover.png
+    - assets/card_back.png
+    - assets/cardbook.JPG
+    - assets/happy.png
+    - assets/sad.png
+    - assets/angry.png
+    - assets/cry.png
+
+  fonts:
+    - family: MyFont
+      fonts:
+        - asset: assets/font.ttf
+
+flutter_icons:
+    android: true
+    ios: true
+    image_path: "assets/icon.png"
